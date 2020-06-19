@@ -1,37 +1,36 @@
-<!--<head>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<title>VaporwaveMe</title>
-</head>
-
-<h1>Hello!</h1>
--->
-<!DOCTYPE html>
-<html>
 <head>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <title>VaporwaveMe</title>
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+.css-selector {
+    background: linear-gradient(270deg, #4672ff, #e754ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 27s ease infinite;
+    -moz-animation: AnimationName 27s ease infinite;
+    -o-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
 }
 
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
 }
-</style>
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
 </head>
-<body>
 
-<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
-
-<div></div>
-
-<p><b>Note:</b> When an animation is finished, it changes back to its original style.</p>
-
-</body>
-</html>
+<h1>Hello!</h1>
